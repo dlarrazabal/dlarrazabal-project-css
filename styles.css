@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.instagram-title{
+    background-color: white;
+    width: 30%;
+}
+h1{
+    width: 100%;
+}
+h3, h5, p{
+    margin: 1em 0.5em;
+}
+h5{
+    color: gray;
+}
+.instagram-posts {
+    width: 100%;
+    background-color: rgb(196, 194, 194);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.instagram-posts > :last-child{
+    margin-bottom: 2em;
+}
+.instagram-cajas{
+    width: 30%;
+    margin-top: 2em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cajas-header, .cajas-img, .cajas-footer {
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+.cajas-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
